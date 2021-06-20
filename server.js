@@ -26,5 +26,5 @@ server.use(express.static(__dirname+'/public'));
 server.use('/', apiRoutes);
 
 server.listen(process.env.PORT, () => {
-    console.log(`Seridor rodando em ${process.env.BASE}`);
+    console.log(`Servidor rodando em ${process.env.BASE}`);
 });
